@@ -1,0 +1,31 @@
+    Devtools használatával
+● A feladat során a CPU benchmark   Házi feladat 1.
+
+Leírás:
+● Cpubenchmark.net scrapelése egy teljes CPU lista összeállításához,
+Javascript és Devtools használatával
+● A feladat során a CPU benchmark táblázatokból a CPU nevét, árát és
+teljesítményét kell kiscrapelni
+● Az adatok megosztásakor használjátok a google classroomba
+feltöltött xlsx templatet
+● A template-ben külön munkalapra töltsétek a 4 különböző linkről
+származó adatokat
+
+● A leszállítandó a kitöltött xlsx fájl és a scrapeléshez használt kód .js
+formátumban
+
+Adatforrások:
+• https://www.cpubenchmark.net/high_end_cpus.html
+• https://www.cpubenchmark.net/mid_range_cpus.html
+• https://www.cpubenchmark.net/midlow_range_cpus.html
+• https://www.cpubenchmark.net/low_end_cpus.html
+
+A scrapelés során a listák
+‚price performance’ tabjére
+vagyunk kíváncsiak!
+
+Ezért a scrapelés, szelektorok
+használata során duplán
+ellenőrizzétek, hogy a
+második tab adatait
+scrapeltétek-e ☺
