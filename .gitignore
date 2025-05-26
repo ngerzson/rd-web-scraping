@@ -26,3 +26,6 @@ dist/
 # Mac és Windows rejtett fájlok
 .DS_Store
 Thumbs.db
+
+#Chromedriver kivetele
+chromedriver.exe
