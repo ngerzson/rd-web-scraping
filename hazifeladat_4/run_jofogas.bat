@@ -1,35 +1,24 @@
 @echo off
 setlocal
 
-REM ───── Aktiváljuk a virtuális környezetet ─────
-call "%~dp0venv\Scripts\activate.bat"
+:: Időbélyeg kiírása
+echo [%date% %time%] Jófogás teljes scraper pipeline indítása...
 
-REM ───── Kiírjuk az aktuális dátumot ─────
-echo -----------------------------------------
-echo 🕒  Futtatás dátuma: %DATE%
-echo -----------------------------------------
+:: Virtuális környezet aktiválása
+call D:\WebScraping\rd-web-scraping\venv\Scripts\activate.bat
 
-REM ───── 1. Gyűjtőoldalak feldolgozása ─────
-echo 📥 Elindult: jofogas_scraper.py
-python "%~dp0src\jofogas_scraper.py"
-if errorlevel 1 (
-    echo ❌ Hiba a scraper futása közben.
-    pause
-    exit /b 1
-)
+:: 1. Jófogás scraper
+echo [%date% %time%] 1. Jófogás scraper indul...
+python D:\WebScraping\rd-web-scraping\hazifeladat_4\src\jofogas_scraper.py
 
-REM ───── 2. Termékoldalak feldolgozása ─────
-echo 🛠️ Elindult: jofogas_product_parser.py
-python "%~dp0src\jofogas_product_parser.py"
-if errorlevel 1 (
-    echo ❌ Hiba a parser futása közben.
-    pause
-    exit /b 1
-)
+:: 2. Jófogás termék parser
+echo [%date% %time%] 2. Jófogás termék parser indul...
+python D:\WebScraping\rd-web-scraping\hazifeladat_4\src\jofogas_product_parser.py
 
-REM ───── Vége ─────
-echo -----------------------------------------
-echo ✅ Minden feldolgozás sikeresen befejeződött!
-echo -----------------------------------------
+:: 3. Jófogás Excel export
+echo [%date% %time%] 3. Jófogás Excel export indul...
+python D:\WebScraping\rd-web-scraping\hazifeladat_4\src\jofogas_export.py
+
+:: Befejezés
+echo [%date% %time%] ✅ Jófogás scraping és export kész.
 pause
-exit /b 0
