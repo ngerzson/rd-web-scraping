@@ -486,6 +486,15 @@
     "date": "2025_06_09"
   },
   {
+    "product_link": "https://www.vatera.hu/lenovo-thinkpad-t460-14-fhd-ips-i5-6300u-3462941033.html",
+    "image": "https://p1-ssl.vatera.hu/photos/96/94/lenovo-thinkpad-t460-14-fhd-ips-i5-6300u-86ec_1_300.jpg?v=10",
+    "name": "Lenovo Thinkpad T460 14\" FHD IPS i5-6300U",
+    "price": "5 000",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=2",
+    "source": "jofogas",
+    "date": "2025_06_09"
+  },
+  {
     "product_link": "https://www.vatera.hu/lenovo-thinkpad-l540-3462245906.html",
     "image": "https://p1-ssl.vatera.hu/photos/21/ea/lenovo-thinkpad-l540-d5ec_2_300.jpg?v=6",
     "name": "Lenovo Thinkpad L540",
@@ -895,7 +904,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/08/7b/toshiba-satellilte-pro-430cdt-1-3gb-retro-laptop-hibas-f8ac_1_300.jpg?v=3",
     "name": "Toshiba Satellilte Pro 430CDT/1.3GB RETRO laptop hibás",
     "price": "20 000",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=2",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=3",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -1345,7 +1354,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/d1/7a/hp-elitebook-820-g2-1-ho-gari-i5-5200u-4-gb-ram-256-gb-ssd-magyar-2-ora-akku-win-11-f5ec_1_300.jpg?v=2",
     "name": "HP Elitebook 820 G2 - 1 hó gari - i5-5200U / 4 GB RAM / 256 GB SSD / magyar / 2+ óra akku / Win 11",
     "price": "31 900",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=3",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=4",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -1705,15 +1714,6 @@
     "image": "https://p1-ssl.vatera.hu/photos/20/1f/samsung-sens-x430-i3-hibas-laptop-75ec_1_300.jpg?v=2",
     "name": "Samsung Sens X430 i3 hibás laptop",
     "price": "2 400",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=4",
-    "source": "jofogas",
-    "date": "2025_06_09"
-  },
-  {
-    "product_link": "https://www.vatera.hu/fujitsu-amilo-laptop-3460208354.html",
-    "image": "https://p1-ssl.vatera.hu/photos/2e/69/fujitsu-amilo-laptop-e3ec_1_300.jpg?v=2",
-    "name": "Fujitsu amilo laptop",
-    "price": "6 000",
     "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=4",
     "source": "jofogas",
     "date": "2025_06_09"
@@ -2637,15 +2637,6 @@
     "date": "2025_06_09"
   },
   {
-    "product_link": "https://www.vatera.hu/toshiba-satellite-pro-a200-laprop-3462158036.html",
-    "image": "https://p2-ssl.vatera.hu/photos/4d/65/toshiba-satellite-pro-a200-laprop-c5ec_6_300.jpg?v=5",
-    "name": "Toshiba satellite pro A200 laprop",
-    "price": "3 000",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=6",
-    "source": "jofogas",
-    "date": "2025_06_09"
-  },
-  {
     "product_link": "https://www.vatera.hu/hp-compaq-nc6400-laptop-1-ho-gari-intel-c2d-t5600-2-gb-80-gb-2-3-ora-akku-windows-10-3461502146.html",
     "image": "https://p1-ssl.vatera.hu/photos/2c/45/hp-compaq-nc6400-laptop-1-ho-gari-intel-c2d-t5600-2-gb-80-gb-2-3-ora-akku-windows-10-25ec_1_300.jpg?v=2",
     "name": "HP Compaq nc6400 laptop - 1 hó gari - Intel C2D T5600 / 2 GB / 80 GB / 2-3 óra akku /  Windows 10",
@@ -2704,7 +2695,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/b1/d3/fujitsu-lifebook-u757-notebook-i5-7200u-cpu-8gb-256gb-ssd-15-6-fhd-akku-tolto-w10pro-garancia-b29c_1_300.jpg?v=12",
     "name": "Fujitsu LifeBook U757 notebook i5-7200U CPU/8GB/256GB SSD/15.6\" FHD/AKKU/TÖLTŐ/W10PRO/GARANCIA",
     "price": "49 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=7",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=6",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -2821,15 +2812,6 @@
     "image": "https://p2-ssl.vatera.hu/photos/66/be/dell-inspiron-5521-core-i5-laptop-c5ec_1_300.jpg?v=12",
     "name": "Dell Inspiron 5521 Core i5 Laptop",
     "price": "18 000",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=7",
-    "source": "jofogas",
-    "date": "2025_06_09"
-  },
-  {
-    "product_link": "https://www.vatera.hu/asus-laptop-notebook-19v-2-37-a-45w-tolto-hp-laptop-eger-hangk-stick-ujak-felar-alatt-egyben-3462362750.html",
-    "image": "https://p1-ssl.vatera.hu/photos/e7/67/asus-laptop-notebook-19v-2-37-a-45w-tolto-hp-laptop-eger-hangk-stick-ujak-felar-alatt-egyben-f5ec_1_300.jpg?v=1",
-    "name": "Asus laptop,notebook 19v 2.37 A 45W töltő+ hp laptop egér+ hangk stick  ÚJAK FÉLÁR ALATT EGYBEN",
-    "price": "6 900",
     "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=7",
     "source": "jofogas",
     "date": "2025_06_09"
@@ -3078,6 +3060,15 @@
     "date": "2025_06_09"
   },
   {
+    "product_link": "https://www.vatera.hu/toshiba-satellite-pro-a200-laprop-3462158036.html",
+    "image": "https://p2-ssl.vatera.hu/photos/4d/65/toshiba-satellite-pro-a200-laprop-c5ec_6_300.jpg?v=5",
+    "name": "Toshiba satellite pro A200 laprop",
+    "price": "3 000",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=7",
+    "source": "jofogas",
+    "date": "2025_06_09"
+  },
+  {
     "product_link": "https://www.vatera.hu/microsoft-surface-laptop-go-intel-core-i5-1035g1-12-4inch-4gb-64gb-w10h-cz-sk-hu-ro-bg-3345487820.html",
     "image": "https://p1-ssl.vatera.hu/photos/cc/71/microsoft-surface-laptop-go-intel-core-i5-1035g1-12-4inch-4gb-64gb-w10h-cz-sk-hu-ro-bg-867c_5_300.jpg?v=6",
     "name": "MICROSOFT Surface Laptop GO Intel Core i5-1035G1 12.4inch 4GB 64GB W10H CZ/SK/HU/RO/BG",
@@ -3114,15 +3105,6 @@
     "date": "2025_06_09"
   },
   {
-    "product_link": "https://www.vatera.hu/lifebook-fujitsu-siemens-alkatresz-csomag-3460210514.html",
-    "image": "https://p2-ssl.vatera.hu/photos/25/f9/lifebook-fujitsu-siemens-alkatresz-csomag-e3ec_1_300.jpg?v=2",
-    "name": "Lifebook Fujitsu Siemens alkatrész Csomag",
-    "price": "2 500",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=7",
-    "source": "jofogas",
-    "date": "2025_06_09"
-  },
-  {
     "product_link": "https://www.vatera.hu/3-in-1-laptop-pakk-egyben-3454138004.html",
     "image": "https://p2-ssl.vatera.hu/photos/49/6f/3-in-1-laptop-pakk-egyben-1edc_1_300.jpg?v=11",
     "name": "3 in 1 laptop pakk, egyben",
@@ -3154,7 +3136,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/dc/06/fujitsu-siemens-amilo-laptop-03dc_2_300.jpg?v=2",
     "name": "Fujitsu Siemens Amilo laptop",
     "price": "9 000",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=8",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=7",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -3163,7 +3145,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/01/ce/acer-aspire-3-a315-58g-58ee-laptop-15-6-intel-i5-512gb-ssd-8gb-ram-nvidia-geforce-mx350-window-e84c_1_300.jpg?v=6",
     "name": "Acer Aspire 3 A315-58G-58EE laptop 15,6\", Intel i5, 512GB SSD, 8GB RAM, Nvidia Geforce MX350, Window",
     "price": "200 000",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=8",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=7",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -3604,7 +3586,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/a8/12/toshiba-nb500-905c_3_300.jpg?v=2",
     "name": "Toshiba Nb500",
     "price": "18 500",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=9",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=8",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -3613,7 +3595,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/ca/4c/lenovo-l540-i5-4300u-128gb-ssd-8gb-ram-jo-kepernyo-magyar-bill-jo-akku-5cdc_1_300.jpg?v=5",
     "name": "LENOVO L540, i5-4300U, 128GB SSD, 8GB Ram,jó képernyő.magyar bill!,jó akku!!",
     "price": "44 900",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=9",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=8",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -4054,7 +4036,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/3c/07/dell-latitude-e6430-i5-3320m-4gb-ram-14-led-jo-allapotban-szamlaval-39ac_1_300.jpg?v=2",
     "name": "Dell Latitude E6430 | i5-3320M | 4GB RAM | 14\" LED | jó állapotban | SZÁMLÁVAL",
     "price": "39 999",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=10",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=9",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -4063,7 +4045,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/08/17/hp-elitebook-8440p-i5-520m-4gb-ram-14-led-billentyuzet-nelkul-tobb-darab-szamla-39ac_1_300.jpg?v=2",
     "name": "HP EliteBook 8440p | i5-520M | 4GB RAM | 14\" LED | BILLENTYŰZET NÉLKÜL! | TÖBB DARAB | SZÁMLA",
     "price": "22 399",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=10",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=9",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -4504,7 +4486,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/ce/22/dell-latitude-e6220-905c_4_300.jpg?v=2",
     "name": "Dell Latitude E6220",
     "price": "24 500",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=11",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=10",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -4513,7 +4495,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/c9/09/acer-aspire-es14-es1-431-c5yc-notebook-4gb-32gb-toltovel-e4ec_1_300.jpg?v=2",
     "name": "ACER Aspire ES14 ES1-431-C5YC notebook,4GB/32GB,töltővel.",
     "price": "14 875",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=11",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=10",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -4954,7 +4936,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/9b/8b/hp-elitebook-mt45-amd-ryzen-3-pro-3300u-8gb-ram-128gb-ssd-15ec_1_300.jpg?v=9",
     "name": "HP EliteBook mt45 / AMD Ryzen 3 PRO 3300U / 8GB RAM / 128GB SSD",
     "price": "74 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=12",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=11",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -4963,7 +4945,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/6d/bc/hp-probook-640-g2-i5-6200u-8gb-ram-256-gb-ssd-15ec_1_300.jpg?v=7",
     "name": "HP ProBook 640 G2 / i5-6200U / 8GB RAM / 256 GB SSD",
     "price": "75 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=12",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=11",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -5404,7 +5386,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/45/32/dell-inspiron-n5010-alkatreszek-billentyuzet-palmresttel-egerpaddal-76ec_18_300.jpg?v=2",
     "name": "Dell Inspiron N5010 alkatreszek billentyüzet palmresttel EGÉRPADDAL",
     "price": "12 150",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=13",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=12",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -5413,7 +5395,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/30/db/lenovo-g505-5ccc_4_300.jpg?v=10",
     "name": "Lenovo G505",
     "price": "22 500",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=13",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=12",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -5854,7 +5836,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/c4/68/fujitsu-lifebook-u904-core-i5-a9dc_1_300.jpg?v=2",
     "name": "Fujitsu Lifebook U904 (core i5)",
     "price": "16 000",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=14",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=13",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -5863,7 +5845,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/a7/77/dell-latitude-2100-14ec_1_300.jpg?v=2",
     "name": "Dell Latitude 2100",
     "price": "40 000",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=14",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=13",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -6304,7 +6286,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/e9/eb/lenovo-thinkpad-p16s-gen-2-villi-black-21k9002jhv-notebook-notebook-75ec_1_300.jpg?v=12",
     "name": "Lenovo ThinkPad P16s Gen 2 Villi Black 21K9002JHV Notebook Notebook",
     "price": "1 139 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=15",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=14",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -6313,7 +6295,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/68/88/dell-latitude-e42004gb-ram-60gb-ssd-12-lcd-laptop-notebook-113c_1_300.jpg?v=1",
     "name": "Dell Latitude E42004GB RAM 60GB SSD 12\" LCD laptop notebook",
     "price": "28 000",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=15",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=14",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -6754,7 +6736,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/d8/6c/toshiba-tecra-a11-16x-laptop-b4ec_1_300.jpg?v=2",
     "name": "Toshiba Tecra A11-16X Laptop",
     "price": "14 000",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=16",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=15",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -6763,7 +6745,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/7b/e4/acer-aspire-e5-511-4fdc_1_300.jpg?v=9",
     "name": "Acer Aspire E5 511",
     "price": "32 499",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=16",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=15",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -7204,7 +7186,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/b0/45/hp-elitebook-840-g2-laptop-1-ho-gari-i5-5300u-4-gb-ram-240-gb-ssd-magyar-jo-akku-win11-25ec_1_300.jpg?v=2",
     "name": "HP Elitebook 840 G2 laptop - 1 hó gari - i5-5300U / 4 GB RAM / 240 GB SSD / magyar / jó akku / Win11",
     "price": "32 900",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=17",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=16",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -7213,7 +7195,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/98/9b/hp-compaq-cq61-pentium-dual-t3200-ketmagos-laptop-2-320gb-65ec_8_300.jpg?v=2",
     "name": "HP Compaq CQ61 Pentium Dual T3200 kétmagos laptop 2/320GB",
     "price": "15 000",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=17",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=16",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -7654,7 +7636,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/au/4f/dell-inspiron-5378-touchscreen-2in-1-intel-4415-gold-erintokijelzos-olcson-4gb-ddr4-256ssd-00ec_1_300.jpg?v=1",
     "name": "Dell Inspiron 5378 touchscreen 2in 1. Intel 4415 gold ÉRINTÖKIJELZÖS! OLCSÓN! 4gb ddr4 256ssd",
     "price": "59 890",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=18",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=17",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -7663,7 +7645,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/26/70/lenovo-v17-g4-iron-grey-83a20023hv-notebook-notebook-d5ec_1_300.jpg?v=10",
     "name": "Lenovo V17 G4 Iron Grey 83A20023HV Notebook Notebook",
     "price": "235 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=18",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=17",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -8104,7 +8086,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/6d/21/dell-pro-13-plus-silver-bto104-pb13250-emea-notebook-notebook-f5ec_1_300.jpg?v=9",
     "name": "Dell Pro 13 Plus Silver BTO104_PB13250_EMEA Notebook Notebook",
     "price": "701 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=19",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=18",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -8113,7 +8095,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/be/21/dell-pro-13-plus-silver-bto209-pb13250-emea-notebook-notebook-f5ec_1_300.jpg?v=9",
     "name": "Dell Pro 13 Plus Silver BTO209_PB13250_EMEA Notebook Notebook",
     "price": "741 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=19",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=18",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -8554,7 +8536,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/e6/42/microsoft-surface-laptop-7-for-business-black-zhr-00009-notebook-notebook-3fcc_1_300.jpg?v=6",
     "name": "Microsoft Surface Laptop 7 for Business Black ZHR-00009 Notebook Notebook",
     "price": "1 294 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=20",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=19",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -8563,7 +8545,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/0e/c8/lenovo-yoga-slim-7-luna-grey-83jx0026hv-notebook-notebook-95ec_1_300.jpg?v=4",
     "name": "Lenovo Yoga Slim 7 Luna Grey 83JX0026HV Notebook Notebook",
     "price": "497 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=20",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=19",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -9004,7 +8986,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/32/b5/dell-pro-13-plus-silver-bto212-pb13250-emea-notebook-notebook-66ec_1_300.jpg?v=9",
     "name": "Dell Pro 13 Plus Silver BTO212_PB13250_EMEA Notebook Notebook",
     "price": "850 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=21",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=20",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -9013,7 +8995,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/5a/a5/dell-pro-14-plus-silver-pb14250-1-notebook-notebook-66ec_1_300.jpg?v=7",
     "name": "Dell Pro 14 Plus Silver PB14250-1 Notebook Notebook",
     "price": "720 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=21",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=20",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -9454,7 +9436,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/a6/38/lenovo-thinkpad-x1-carbon-gen-12-intel-core-ultra-7-155u-laptop-35-6-cm-14-wuxga-16-gb-lpddr5x-69bc_1_300.jpg?v=1",
     "name": "Lenovo ThinkPad X1 Carbon Gen 12 Intel Core Ultra 7 155U Laptop 35,6 cm (14\") WUXGA 16 GB LPDDR5x...",
     "price": "1 120 515",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=22",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=21",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -9463,7 +9445,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/49/38/lenovo-thinkpad-e14-amd-ryzen-5-7535hs-laptop-35-6-cm-14-wuxga-32-gb-ddr5-sdram-1-tb-ssd-wi-f-69bc_1_300.jpg?v=1",
     "name": "Lenovo ThinkPad E14 AMD Ryzen? 5 7535HS Laptop 35,6 cm (14\") WUXGA 32 GB DDR5-SDRAM 1 TB SSD Wi-F...",
     "price": "471 520",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=22",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=21",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -9904,7 +9886,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/c5/10/dell-latitude-7450-ultralight-intel-core-ultra-7-165u-laptop-35-6-cm-14-full-hd-16-gb-lpddr5x-d6dc_1_300.jpg?v=1",
     "name": "DELL Latitude 7450 Ultralight Intel Core Ultra 7 165U Laptop 35,6 cm (14\") Full HD+ 16 GB LPDDR5x...",
     "price": "971 085",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=23",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=22",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -9913,7 +9895,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/d9/20/dell-latitude-5550-intel-core-ultra-7-155u-laptop-39-6-cm-15-6-full-hd-16-gb-ddr5-sdram-512-gb-d6dc_1_300.jpg?v=1",
     "name": "DELL Latitude 5550 Intel Core Ultra 7 155U Laptop 39,6 cm (15.6\") Full HD 16 GB DDR5-SDRAM 512 GB...",
     "price": "648 590",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=23",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=22",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -10354,7 +10336,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/62/5c/gigabyte-aorus-16x-asg-2024-i7-14650hx-16-165hz-16gb-1tb-w11h-rtx-4070-asg-53eec54sh-48dc_1_300.jpg?v=8",
     "name": "Gigabyte AORUS 16X ASG 2024 - i7-14650HX | 16\"-165Hz | 16GB | 1TB | W11H | RTX 4070 (ASG-53EEC54SH)",
     "price": "896 195",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=24",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=23",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -10363,7 +10345,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/22/6c/dell-precision-3590-intel-core-ultra-7-165h-mobil-munkaallomas-39-6-cm-15-6-full-hd-16-gb-ddr5-48dc_1_300.jpg?v=1",
     "name": "DELL Precision 3590 Intel Core Ultra 7 165H Mobil munkaállomás 39,6 cm (15.6\") Full HD 16 GB DDR5...",
     "price": "978 215",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=24",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=23",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -10804,7 +10786,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/01/f3/lenovo-thinkpad-p16-intel-core-i9-i9-13980hx-mobil-munkaallomas-40-6-cm-16-erintokepernyo-wq-d8dc_1_300.jpg?v=1",
     "name": "Lenovo ThinkPad P16 Intel? Core? i9 i9-13980HX Mobil munkaállomás 40,6 cm (16\") Érintőképernyő WQ...",
     "price": "3 745 045",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=25",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=24",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -10813,7 +10795,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/5a/9e/lenovo-v14-amd-ryzen-7-7730u-laptop-35-6-cm-14-full-hd-16-gb-ddr4-sdram-512-gb-ssd-wi-fi-6-8-f8dc_1_300.jpg?v=8",
     "name": "Lenovo V14 AMD Ryzen? 7 7730U Laptop 35,6 cm (14\") Full HD 16 GB DDR4-SDRAM 512 GB SSD Wi-Fi 6 (8...",
     "price": "368 355",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=25",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=24",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -11254,7 +11236,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/ca/2d/msi-vector-16-hx-a14vgg-269pl-intel-core-i9-i9-14900hx-laptop-40-6-cm-16-quad-hd-32-gb-ddr5-48dc_1_300.jpg?v=5",
     "name": "MSI Vector 16 HX A14VGG-269PL Intel? Core? i9 i9-14900HX Laptop 40,6 cm (16\") Quad HD+ 32 GB DDR5...",
     "price": "1 121 300",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=26",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=25",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -11263,7 +11245,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/04/8d/lenovo-thinkpad-t14-intel-core-ultra-7-155u-laptop-35-6-cm-14-wuxga-16-gb-ddr5-sdram-512-gb-ss-48dc_1_300.jpg?v=8",
     "name": "Lenovo ThinkPad T14 Intel Core Ultra 7 155U Laptop 35,6 cm (14\") WUXGA 16 GB DDR5-SDRAM 512 GB SS...",
     "price": "1 041 835",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=26",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=25",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -11704,7 +11686,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/9d/8d/dell-latitude-3340-2-in-1-i5-1335u-hibrid-2-az-1-ben-33-8-cm-13-3-erintokepernyo-full-hd-int-48dc_1_300.jpg?v=7",
     "name": "DELL Latitude 3340 2-in-1 i5-1335U Hibrid (2 az 1-ben) 33,8 cm (13.3\") Érintőképernyő Full HD Int...",
     "price": "554 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=27",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=26",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -11713,7 +11695,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/f9/97/dell-pro-14-premium-pa14250-intel-core-ultra-7-268v-laptop-35-6-cm-14-full-hd-32-gb-lpddr5x-s-a8dc_1_300.jpg?v=4",
     "name": "DELL Pro 14 Premium PA14250 Intel Core Ultra 7 268V Laptop 35,6 cm (14\") Full HD+ 32 GB LPDDR5x-S...",
     "price": "1 338 530",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=27",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=26",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -12154,7 +12136,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/04/5d/lenovo-thinkpad-t16-amd-ryzen-5-pro-7540u-laptop-40-6-cm-16-wuxga-16-gb-lpddr5x-sdram-512-gb-48dc_1_300.jpg?v=8",
     "name": "Lenovo ThinkPad T16 AMD Ryzen? 5 PRO 7540U Laptop 40,6 cm (16\") WUXGA 16 GB LPDDR5x-SDRAM 512 GB ...",
     "price": "716 805",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=28",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=27",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -12163,7 +12145,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/5e/fc/lenovo-thinkpad-x1-carbon-intel-core-ultra-5-125u-laptop-35-6-cm-14-wuxga-16-gb-lpddr5x-sdram-48dc_1_300.jpg?v=8",
     "name": "Lenovo ThinkPad X1 Carbon Intel Core Ultra 5 125U Laptop 35,6 cm (14\") WUXGA 16 GB LPDDR5x-SDRAM ...",
     "price": "1 190 080",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=28",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=27",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -12604,7 +12586,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/bc/ef/lenovo-thinkpad-t16-intel-core-ultra-5-125u-laptop-40-6-cm-16-wuxga-16-gb-ddr5-sdram-512-gb-ss-dedc_1_300.jpg?v=8",
     "name": "Lenovo ThinkPad T16 Intel Core Ultra 5 125U Laptop 40,6 cm (16\") WUXGA 16 GB DDR5-SDRAM 512 GB SS...",
     "price": "904 800",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=29",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=28",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -12613,7 +12595,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/20/ff/lenovo-thinkpad-t14s-amd-ryzen-ai-7-pro-360-laptop-35-6-cm-14-wuxga-32-gb-lpddr5x-sdram-1-tb-s-2fdc_1_300.jpg?v=1",
     "name": "Lenovo ThinkPad T14s AMD Ryzen AI 7 PRO 360 Laptop 35,6 cm (14\") WUXGA 32 GB LPDDR5x-SDRAM 1 TB S...",
     "price": "1 186 905",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=29",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=28",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -13054,7 +13036,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/f9/50/acer-swift-14-ai-sf14-51-7936-azure-blue-nx-j2keu-004-notebook-notebook-d8cc_1_300.jpg?v=6",
     "name": "Acer Swift 14 AI SF14-51-7936 Azure Blue NX.J2KEU.004 Notebook Notebook",
     "price": "688 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=30",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=29",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -13063,7 +13045,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/fa/c3/hp-250-g10-silver-a23jyea-akc-notebook-notebook-9acc_1_300.jpg?v=5",
     "name": "HP 250 G10 Silver A23JYEA#AKC Notebook Notebook",
     "price": "198 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=30",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=29",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -13504,7 +13486,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/75/0b/dell-latitude-3450-black-l3450-4-notebook-notebook-a9bc_1_300.jpg?v=9",
     "name": "Dell Latitude 3450 Black L3450-4 Notebook Notebook",
     "price": "359 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=31",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=30",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -13513,7 +13495,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/1b/6f/lenovo-ideapad-slim-3-arctic-grey-83er00hwhv-notebook-notebook-71cc_1_300.jpg?v=4",
     "name": "Lenovo IdeaPad Slim 3 Arctic Grey 83ER00HWHV Notebook Notebook",
     "price": "285 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=31",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=30",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -13954,7 +13936,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/59/f7/dell-precision-7780-titan-grey-n003p7780emea-vp-ubu-notebook-notebook-acac_1_300.jpg?v=8",
     "name": "Dell Precision 7780 Titan Grey N003P7780EMEA_VP_UBU Notebook Notebook",
     "price": "2 055 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=32",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=31",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -13963,7 +13945,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/56/17/hp-zbook-firefly-16-g11-mobile-workstation-silver-8t0p7ea-akc-notebook-notebook-47bc_1_300.jpg?v=6",
     "name": "HP Zbook Firefly 16 G11 Mobile Workstation Silver 8T0P7EA#AKC Notebook Notebook",
     "price": "1 268 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=32",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=31",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -14404,7 +14386,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/42/54/lenovo-ideapad-5-2-in-1-cosmic-blue-83dr0022hv-notebook-notebook-cdac_1_300.jpg?v=12",
     "name": "Lenovo IdeaPad 5 2-in-1 Cosmic Blue 83DR0022HV Notebook Notebook",
     "price": "357 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=33",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=32",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -14413,7 +14395,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/34/b7/dell-precision-5490-workstation-grey-n002p5490emea-vp-notebook-notebook-47bc_1_300.jpg?v=9",
     "name": "Dell Precision 5490 Workstation Grey N002P5490EMEA_VP Notebook Notebook",
     "price": "1 698 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=33",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=32",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -14854,7 +14836,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/f7/1f/hp-250-g10-silver-a23jrea-akc-notebook-notebook-7cbc_1_300.jpg?v=5",
     "name": "HP 250 G10 Silver A23JREA#AKC Notebook Notebook",
     "price": "246 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=34",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=33",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -14863,7 +14845,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/00/c9/lenovo-loq-luna-grey-83gs00jshv-notebook-notebook-74cc_1_300.jpg?v=12",
     "name": "Lenovo LOQ Luna Grey 83GS00JSHV Notebook Notebook",
     "price": "559 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=34",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=33",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -15304,7 +15286,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/4e/67/acer-aspire-3-a315-59-333h-silver-nx-k6teu-01k-notebook-notebook-70cc_1_300.jpg?v=9",
     "name": "Acer Aspire 3 A315-59-333H Silver NX.K6TEU.01K Notebook Notebook",
     "price": "262 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=35",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=34",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -15313,7 +15295,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/c9/e1/lenovo-yoga-7-2-in-1-storm-grey-83dj00awhv-notebook-notebook-50cc_1_300.jpg?v=7",
     "name": "Lenovo Yoga 7 2-in-1 Storm Grey 83DJ00AWHV Notebook Notebook",
     "price": "464 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=35",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=34",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -15754,7 +15736,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/dc/b7/hp-probook-460-g11-silver-9c087ea-akc-notebook-notebook-f9ac_1_300.jpg?v=5",
     "name": "HP ProBook 460 G11 Silver 9C087EA#AKC Notebook Notebook",
     "price": "592 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=36",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=35",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -15763,7 +15745,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/23/95/dell-latitude-5450-silver-n015l545014emea-vp-ubu-notebook-notebook-99ac_1_300.jpg?v=9",
     "name": "Dell Latitude 5450 Silver N015L545014EMEA_VP_UBU Notebook Notebook",
     "price": "793 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=36",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=35",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -16204,7 +16186,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/6f/d2/lenovo-thinkpad-t14s-gen-4-black-21ls001ehv-notebook-notebook-51bc_1_300.jpg?v=12",
     "name": "Lenovo ThinkPad T14s Gen 4 Black 21LS001EHV Notebook Notebook",
     "price": "853 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=37",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=36",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -16213,7 +16195,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/4f/87/dell-precision-3591-workstation-grey-n102p3591emea-vp-notebook-notebook-47bc_1_300.jpg?v=9",
     "name": "Dell Precision 3591 Workstation Grey N102P3591EMEA_VP Notebook Notebook",
     "price": "1 092 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=37",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=36",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -16654,7 +16636,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/35/4f/hp-250-g10-silver-8a5c8ea-akc-notebook-notebook-c8cc_1_300.jpg?v=5",
     "name": "HP 250 G10 Silver 8A5C8EA#AKC Notebook Notebook",
     "price": "182 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=38",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=37",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -16663,7 +16645,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/30/af/apple-macbook-pro-14-2-2024-space-black-mw2v3mg-a-notebook-notebook-37cc_1_300.jpg?v=4",
     "name": "Apple MacBook Pro 14,2\" (2024) Space Black MW2V3MG/A Notebook Notebook",
     "price": "1 014 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=38",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=37",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -17104,7 +17086,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/b8/e9/lenovo-thinkpad-x1-carbon-gen-13-copilot-pc-intel-core-ultra-7-258v-laptop-35-6-cm-14-2-8k-32-36ec_1_300.jpg?v=8",
     "name": "Lenovo ThinkPad X1 Carbon Gen 13 Copilot+ PC Intel Core Ultra 7 258V Laptop 35,6 cm (14\") 2.8K 32...",
     "price": "1 895 790",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=39",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=38",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -17113,7 +17095,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/0e/d9/asus-expertbook-b3405cca-ly0066x-intel-core-ultra-5-125h-laptop-35-6-cm-14-wuxga-16-gb-ddr5-sd-36ec_1_300.jpg?v=1",
     "name": "ASUS ExpertBook B3405CCA-LY0066X Intel Core Ultra 5 125H Laptop 35,6 cm (14\") WUXGA 16 GB DDR5-SD...",
     "price": "492 790",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=39",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=38",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -17554,7 +17536,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/ae/97/lenovo-yoga-pro-7-luna-grey-83hn001mhv-notebook-notebook-30dc_1_300.jpg?v=12",
     "name": "Lenovo Yoga Pro 7 Luna Grey 83HN001MHV Notebook Notebook",
     "price": "812 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=40",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=39",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -17563,7 +17545,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/3c/21/acer-swift-16-ai-sf16-51-55g0-ice-black-nx-j3zeu-007-notebook-notebook-8fcc_1_300.jpg?v=6",
     "name": "Acer Swift 16 AI SF16-51-55G0 Ice Black NX.J3ZEU.007 Notebook Notebook",
     "price": "656 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=40",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=39",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -18004,7 +17986,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/22/9c/hp-zbook-firefly-16-g11-mobile-workstation-silver-8t0p9ea-akc-notebook-notebook-78dc_1_300.jpg?v=8",
     "name": "HP Zbook Firefly 16 G11 Mobile Workstation Silver 8T0P9EA#AKC Notebook Notebook",
     "price": "1 002 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=41",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=40",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -18013,7 +17995,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/fe/2a/asus-x1504va-bq2367-quiet-blue-x1504va-bq2367-notebook-notebook-56dc_1_300.jpg?v=3",
     "name": "Asus X1504VA-BQ2367 Quiet Blue X1504VA-BQ2367 Notebook Notebook",
     "price": "222 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=41",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=40",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -18454,7 +18436,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/ff/40/lenovo-ideapad-slim-3-abyss-blue-82xb00achv-notebook-notebook-eecc_1_300.jpg?v=7",
     "name": "Lenovo IdeaPad Slim 3 Abyss Blue 82XB00ACHV Notebook Notebook",
     "price": "251 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=42",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=41",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -18463,7 +18445,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/fd/49/acer-nitro-v-anv15-41-r4ew-black-nh-qsheu-00c-notebook-notebook-56dc_1_300.jpg?v=7",
     "name": "Acer Nitro V ANV15-41-R4EW Black NH.QSHEU.00C Notebook Notebook",
     "price": "387 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=42",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=41",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -18904,7 +18886,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/5f/99/asus-ux8406ca-pz222w-inkwell-gray-ux8406ca-pz222w-notebook-notebook-56dc_1_300.jpg?v=10",
     "name": "Asus UX8406CA-PZ222W Inkwell Gray UX8406CA-PZ222W Notebook Notebook",
     "price": "965 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=43",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=42",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -18913,7 +18895,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/14/2a/lenovo-ideapad-slim-3-arctic-grey-83es003hhv-notebook-notebook-56dc_1_300.jpg?v=6",
     "name": "Lenovo IdeaPad Slim 3 Arctic Grey 83ES003HHV Notebook Notebook",
     "price": "289 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=43",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=42",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -19354,7 +19336,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/a6/25/asus-e1504ga-nj145w-cool-silver-e1504ga-nj145w-notebook-notebook-47dc_1_300.jpg?v=9",
     "name": "Asus E1504GA-NJ145W Cool Silver E1504GA-NJ145W Notebook Notebook",
     "price": "191 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=44",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=43",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -19363,7 +19345,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/91/40/lenovo-ideapad-slim-3-arctic-grey-82x7008yhv-notebook-notebook-47dc_1_300.jpg?v=9",
     "name": "Lenovo IdeaPad Slim 3 Arctic Grey 82X7008YHV Notebook Notebook",
     "price": "195 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=44",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=43",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -19804,7 +19786,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/d4/57/lenovo-thinkbook-16-g7-luna-grey-21nh000ghv-notebook-notebook-13ec_1_300.jpg?v=12",
     "name": "Lenovo ThinkBook 16 G7 Luna Grey 21NH000GHV Notebook Notebook",
     "price": "617 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=45",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=44",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -19813,7 +19795,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/27/47/lenovo-thinkbook-16-g7-arctic-grey-21mw001khv-notebook-notebook-13ec_1_300.jpg?v=11",
     "name": "Lenovo ThinkBook 16 G7 Arctic Grey 21MW001KHV Notebook Notebook",
     "price": "572 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=45",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=44",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -20254,7 +20236,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/30/cb/lenovo-yoga-pro-7-tidal-teal-83e200d8hv-notebook-notebook-56dc_1_300.jpg?v=10",
     "name": "Lenovo Yoga Pro 7 Tidal Teal 83E200D8HV Notebook Notebook",
     "price": "805 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=46",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=45",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -20263,7 +20245,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/8c/c6/asus-b3604cma-q91224-star-black-b3604cma-q91224-notebook-notebook-13ec_1_300.jpg?v=5",
     "name": "Asus B3604CMA-Q91224 Star Black B3604CMA-Q91224 Notebook Notebook",
     "price": "532 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=46",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=45",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -20704,7 +20686,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/b1/65/acer-aspire-go-ag15-32p-3177-pure-silver-nx-j73eu-005-notebook-notebook-13ec_1_300.jpg?v=9",
     "name": "Acer Aspire GO AG15-32P-3177 Pure Silver NX.J73EU.005 Notebook Notebook",
     "price": "218 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=47",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=46",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -20713,7 +20695,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/f8/ab/acer-aspire-ag15-71p-72yh-silver-nx-j6seu-002-notebook-notebook-56dc_1_300.jpg?v=4",
     "name": "Acer Aspire AG15-71P-72YH Silver NX.J6SEU.002 Notebook Notebook",
     "price": "299 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=47",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=46",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -21154,7 +21136,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/5a/fa/apple-macbook-air-13-2025-sky-blue-mc6u4mg-a-notebook-notebook-abdc_1_300.jpg?v=6",
     "name": "Apple MacBook Air 13\" (2025) Sky Blue MC6U4MG/A Notebook Notebook",
     "price": "676 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=48",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=47",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -21163,7 +21145,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/66/86/dell-pro-13-premium-magnesium-black-bto208-pa13250-emea-notebook-notebook-13ec_1_300.jpg?v=10",
     "name": "Dell Pro 13 Premium Magnesium Black BTO208_PA13250_EMEA Notebook Notebook",
     "price": "1 286 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=48",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=47",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -21604,7 +21586,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/d0/17/asus-ux3407ra-qd008w-iceland-gray-ux3407ra-qd008w-notebook-notebook-f3ec_1_300.jpg?v=5",
     "name": "Asus UX3407RA-QD008W Iceland Gray UX3407RA-QD008W Notebook Notebook",
     "price": "668 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=49",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=48",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -21613,7 +21595,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/43/0f/lenovo-thinkbook-14-laptop-35-6-cm-14-wuxga-amd-ryzen-5-7530u-16-gb-ddr4-sdram-512-gb-ssd-wi-f0ac_1_300.jpg?v=1",
     "name": "Lenovo ThinkBook 14 Laptop 35,6 cm (14\") WUXGA AMD Ryzen? 5 7530U 16 GB DDR4-SDRAM 512 GB SSD Wi-...",
     "price": "351 320",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=49",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=48",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -22054,7 +22036,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/5e/38/lenovo-thinkpad-e14-intel-core-ultra-7-155h-laptop-35-6-cm-14-wuxga-32-gb-ddr5-sdram-1-tb-ssd-69bc_1_300.jpg?v=1",
     "name": "Lenovo ThinkPad E14 Intel Core Ultra 7 155H Laptop 35,6 cm (14\") WUXGA 32 GB DDR5-SDRAM 1 TB SSD ...",
     "price": "577 955",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=50",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=49",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -22063,7 +22045,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/f0/48/lenovo-thinkpad-l14-gen-5-amd-amd-ryzen-5-pro-7535u-laptop-35-6-cm-14-wuxga-32-gb-ddr5-sdra-69bc_1_300.jpg?v=1",
     "name": "Lenovo ThinkPad L14 Gen 5 (AMD) AMD Ryzen? 5 PRO 7535U Laptop 35,6 cm (14\") WUXGA 32 GB DDR5-SDRA...",
     "price": "596 520",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=50",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=49",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -22504,7 +22486,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/73/9c/lenovo-v15-g4-iru-intel-core-i5-13420h-e-cores-up-to-3-40-ghz-15-6-1920-x-1080-non-touch-48dc_1_300.jpg?v=8",
     "name": "Lenovo V15 G4 IRU, Intel? Core? i5-13420H (E-cores up to 3.40 GHz, ), 15,6 1920 x 1080 Non-Touch,...",
     "price": "306 585",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=51",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=50",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -22513,7 +22495,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/16/9c/dell-latitude-7450-intel-core-ultra-5-135u-laptop-35-6-cm-14-full-hd-16-gb-lpddr5x-sdram-512-48dc_1_300.jpg?v=8",
     "name": "DELL Latitude 7450 Intel Core Ultra 5 135U Laptop 35,6 cm (14\") Full HD+ 16 GB LPDDR5x-SDRAM 512 ...",
     "price": "751 125",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=51",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=50",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -22954,7 +22936,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/9d/a5/hp-zbook-fury-16-g11-mobile-workstation-silver-62x84ea-akc-notebook-notebook-99ac_1_300.jpg?v=5",
     "name": "HP ZBook Fury 16 G11 Mobile Workstation Silver 62X84EA#AKC Notebook Notebook",
     "price": "1 632 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=52",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=51",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -22963,7 +22945,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/7c/b7/hp-probook-440-g11-silver-9c078ea-akc-notebook-notebook-f9ac_1_300.jpg?v=3",
     "name": "HP ProBook 440 G11 Silver 9C078EA#AKC Notebook Notebook",
     "price": "384 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=52",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=51",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -23404,7 +23386,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/e1/3b/lenovo-thinkbook-16-g6-arctic-grey-21kh00t600-notebook-notebook-56dc_1_300.jpg?v=8",
     "name": "Lenovo ThinkBook 16 G6 Arctic Grey 21KH00T600 Notebook Notebook",
     "price": "370 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=53",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=52",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -23413,7 +23395,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/98/1f/hp-probook-460-g11-silver-9c083ea-akc-notebook-notebook-49ac_1_300.jpg?v=5",
     "name": "HP ProBook 460 G11 Silver 9C083EA#AKC Notebook Notebook",
     "price": "393 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=53",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=52",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -23854,7 +23836,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/4d/62/lenovo-thinkbook-14-g7-arctic-grey-21mr004uhv-notebook-notebook-60dc_1_300.jpg?v=8",
     "name": "Lenovo ThinkBook 14 G7 Arctic Grey 21MR004UHV Notebook Notebook",
     "price": "544 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=54",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=53",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -23863,7 +23845,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/25/72/lenovo-thinkbook-16-g7-arctic-grey-21ms007qhv-notebook-notebook-60dc_1_300.jpg?v=8",
     "name": "Lenovo ThinkBook 16 G7 Arctic Grey 21MS007QHV Notebook Notebook",
     "price": "564 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=54",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=53",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -24304,7 +24286,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/b4/30/panasonic-toughbook-fz-55-mk3-black-fz-55gz010b4-notebook-notebook-edbc_1_300.jpg?v=6",
     "name": "Panasonic Toughbook FZ-55 MK3 Black FZ-55GZ010B4 Notebook Notebook",
     "price": "1 304 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=55",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=54",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -24313,7 +24295,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/eb/9d/lenovo-thinkpad-x1-carbon-gen-12-black-21kc004vhv-notebook-notebook-67bc_1_300.jpg?v=7",
     "name": "Lenovo ThinkPad X1 Carbon Gen 12 Black 21KC004VHV Notebook Notebook",
     "price": "1 182 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=55",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=54",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -24754,7 +24736,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/8b/8b/hp-elitebook-850-g6-16gb-rammal-256ssd-vel-akcio-gamernek-is-jo-laptop-akku-val-a6ec_12_300.jpg?v=2",
     "name": "HP ELITEBOOK 850 G6 16GB RAMMAL 256SSD VEL   AKCIÓ!!! Gamernek is jo laptop akku-VAL !!",
     "price": "128 610",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=56",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=55",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -24763,7 +24745,7 @@
     "image": "https://p1-ssl.vatera.hu/photos/23/ab/termekkod-3418025045-hp-probook-430-g4-g5-440-g4-g5-450-g4-g5-455-g4-g5-470-g4-g5-notebook-akkumula-a6ec_1_300.jpg?v=2",
     "name": "Termékkód: 3418025045 HP ProBook 430 G4 G5 440 G4 G5 450 G4 G5 455 G4 G5 470 G4 G5 notebook akkumulá",
     "price": "8 091",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=56",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=55",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -25029,15 +25011,6 @@
     "date": "2025_06_09"
   },
   {
-    "product_link": "https://www.vatera.hu/lenovo-thinkpad-t460-14-fhd-ips-i5-6300u-3462941033.html",
-    "image": "https://p1-ssl.vatera.hu/photos/96/94/lenovo-thinkpad-t460-14-fhd-ips-i5-6300u-86ec_1_300.jpg?v=10",
-    "name": "Lenovo Thinkpad T460 14\" FHD IPS i5-6300U",
-    "price": "5 000",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=56",
-    "source": "jofogas",
-    "date": "2025_06_09"
-  },
-  {
     "product_link": "https://www.vatera.hu/lenovo-yoga-pro-9-luna-grey-83dn007xhv-notebook-notebook-3445989833.html",
     "image": "https://p1-ssl.vatera.hu/photos/9c/1a/lenovo-yoga-pro-9-luna-grey-83dn007xhv-notebook-notebook-56dc_1_300.jpg?v=12",
     "name": "Lenovo Yoga Pro 9 Luna Grey 83DN007XHV Notebook Notebook",
@@ -25204,7 +25177,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/4c/32/dell-pro-16-black-bto107-pc16250-emea-notebook-notebook-63ec_1_300.jpg?v=8",
     "name": "Dell Pro 16 Black BTO107_PC16250_EMEA Notebook Notebook",
     "price": "693 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=57",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=56",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -25213,7 +25186,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/43/7e/hp-15-fc0055nh-natural-silver-b9kv1ea-akc-notebook-notebook-83ec_1_300.jpg?v=4",
     "name": "HP 15-FC0055NH Natural Silver B9KV1EA#AKC Notebook Notebook",
     "price": "359 990",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=57",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=56",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -25222,7 +25195,7 @@
     "image": "https://p2-ssl.vatera.hu/photos/e7/d3/asus-fa507nv-lp109-mecha-gray-fa507nv-lp109-notebook-notebook-14ec_1_300.jpg?v=6",
     "name": "Asus FA507NV-LP109 Mecha Gray FA507NV-LP109 Notebook Notebook",
     "price": "547 490",
-    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=57",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=56",
     "source": "jofogas",
     "date": "2025_06_09"
   },
@@ -25339,6 +25312,42 @@
     "image": "https://p1-ssl.vatera.hu/photos/5d/a4/hibas-acer-aspire-5520-laptop-10-a6ec_1_300.jpg?v=2",
     "name": "Hibás Acer Aspire 5520 laptop (10.)",
     "price": "5 000",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=57",
+    "source": "jofogas",
+    "date": "2025_06_09"
+  },
+  {
+    "product_link": "https://www.vatera.hu/lenovo-ideapad-320-15ast-feher-patika-amd-8gb-1tb-ssd-amd-radeon-r3-graphics-3463120943.html",
+    "image": "https://p1-ssl.vatera.hu/photos/f2/80/lenovo-ideapad-320-15ast-feher-patika-amd-8gb-1tb-ssd-amd-radeon-r3-graphics-b6ec_7_300.jpg?v=2",
+    "name": "LENOVO IDEAPAD 320 -15AST FEHÉR PATIKA!!! AMD 8GB/ 1TB SSD AMD Radeon R3 Graphics",
+    "price": "59 900",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=57",
+    "source": "jofogas",
+    "date": "2025_06_09"
+  },
+  {
+    "product_link": "https://www.vatera.hu/hp-probook-440-g5-exclusive-3463120934.html",
+    "image": "https://p2-ssl.vatera.hu/photos/62/80/hp-probook-440-g5-exclusive-b6ec_1_300.jpg?v=2",
+    "name": "HP PROBOOK 440 G5 EXCLUSIVE",
+    "price": "79 990",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=57",
+    "source": "jofogas",
+    "date": "2025_06_09"
+  },
+  {
+    "product_link": "https://www.vatera.hu/hewlett-packard-hp-probook-640-g4-i5-7200u-16gb-ram-256ssd-jo-akku-stb-kompletten-toltovel-gar-3463120970.html",
+    "image": "https://p2-ssl.vatera.hu/photos/a4/80/hewlett-packard-hp-probook-640-g4-i5-7200u-16gb-ram-256ssd-jo-akku-stb-kompletten-toltovel-gar-b6ec_4_300.jpg?v=2",
+    "name": "Hewlett Packard HP PROBOOK 640 G4 I5-7200U 16GB RAM /256SSD JÓ AKKU STB.. KOMPLETTEN TÖLTÖVEL GAR.",
+    "price": "62 991",
+    "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=57",
+    "source": "jofogas",
+    "date": "2025_06_09"
+  },
+  {
+    "product_link": "https://www.vatera.hu/hewlett-packard-hp-probook-650-g3-i5-6300u-tobb-oras-akksival-8-256-toltovel-kompletten-3463120898.html",
+    "image": "https://p1-ssl.vatera.hu/photos/20/80/hewlett-packard-hp-probook-650-g3-i5-6300u-tobb-oras-akksival-8-256-toltovel-kompletten-b6ec_6_300.jpg?v=2",
+    "name": "Hewlett Packard HP PROBOOK 650 G3 i5-6300u TÖBB ÓRÁS AKKSIVAL 8/256 töltövel kompletten",
+    "price": "64 990",
     "category_link": "https://www.vatera.hu/szamitastechnika/laptopok-notebook-ok/index-c97.html?p=57",
     "source": "jofogas",
     "date": "2025_06_09"
