@@ -1,30 +1,31 @@
 @echo off
-REM Aktiváljuk a virtuális környezetet
-call .\venv\Scripts\activate.bat
+setlocal
 
-REM Lekérjük a mai dátumot a konzolhoz
+REM Aktiváljuk a virtuális környezetet
+call "%~dp0venv\Scripts\activate.bat"
+
+REM Kiírjuk az aktuális dátumot
 echo -------------------------------
 echo 🗓️  Futtatás dátuma: %DATE%
 echo -------------------------------
 
-REM 1. scraper lefut (gyűjtőoldalak)
-echo 🔄 Gyűjtő oldalak feldolgozása...
-python .\src\jofogas_scraper.py
+REM 1. Gyűjtőoldalak feldolgozása
+echo 🔄 Elindult: jofogas_scraper.py
+python "%~dp0src\jofogas_scraper.py"
 if errorlevel 1 (
-    echo ❌ Hiba a scraper futása közben. Kilépés.
+    echo ❌ Hiba a scraper futása közben.
     pause
     exit /b 1
 )
 
-REM 2. parser indul (termékoldalak)
-echo 🔍 Termék oldalak feldolgozása...
-python .\src\jofogas_product_parser.py
+REM 2. Termékoldalak feldolgozása
+echo 🔍 Elindult: jofogas_product_parser.py
+python "%~dp0src\jofogas_product_parser.py"
 if errorlevel 1 (
-    echo ❌ Hiba a parser futása közben. Kilépés.
+    echo ❌ Hiba a parser futása közben.
     pause
     exit /b 1
 )
 
-echo --------------------------------
-echo ✅ Feldolgozás befejezve!
+echo ✅ Minden feldolgozás sikeresen befejeződött!
 pause

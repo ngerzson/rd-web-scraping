@@ -10,16 +10,13 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# ---- Dátum és fájl útvonalak ----
 TODAY = datetime.now().strftime("%Y_%m_%d")
 BASE_DIR = os.path.dirname(__file__)
 OUTPUT_DIR = os.path.join(BASE_DIR, "..", "output")
-OUTPUT_FILE = os.path.join(OUTPUT_DIR, f"{TODAY}_jofogas.json")
+OUTPUT_FILE = os.path.join(OUTPUT_DIR, f"{TODAY}_jofogas_test.json")
 PROFILE_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "chrome_profile"))
-
 BASE_URL = "https://www.jofogas.hu/magyarorszag/laptop-es-kiegeszitok"
 
-# ---- Selenium driver beállítása ----
 def setup_driver():
     options = Options()
     options.add_argument("--window-size=1920,1080")
@@ -35,11 +32,9 @@ def setup_driver():
     options.add_experimental_option("prefs", prefs)
     return webdriver.Chrome(options=options)
 
-# ---- Termékek kigyűjtése egy oldalról ----
 def extract_products_from_page(driver):
     product_data = []
     product_boxes = driver.find_elements(By.CSS_SELECTOR, 'div[itemscope][itemprop="item"][itemtype="http://schema.org/Product"]')
-
     for box in product_boxes:
         try:
             link_el = box.find_element(By.CSS_SELECTOR, 'h3.item-title a')
@@ -61,15 +56,12 @@ def extract_products_from_page(driver):
                 "source": "jofogas",
                 "date": TODAY
             })
-
         except Exception as e:
             tqdm.write(f"⚠️ Hiba terméknél: {e}")
             continue
-
     return product_data
 
-# ---- Fő scraper logika ----
-def run_scraper():
+def run_scraper_test():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     driver = setup_driver()
     driver.get(BASE_URL)
@@ -84,8 +76,8 @@ def run_scraper():
 
     all_data = []
     page = 1
-    with tqdm(desc="🔄 Oldalak bejárása", unit="oldal") as pbar:
-        while True:
+    with tqdm(desc="🔍 Teszt: első 3 oldal", total=3, unit="oldal") as pbar:
+        while page <= 3:
             pbar.set_postfix(oldal=page)
             time.sleep(2)
             all_data.extend(extract_products_from_page(driver))
@@ -99,19 +91,17 @@ def run_scraper():
                     page += 1
                     pbar.update(1)
                 else:
-                    tqdm.write("✅ Nincs további oldal (Tovább gomb disabled).")
                     break
             except:
-                tqdm.write("⛔ Lapozó gomb nem található. Vége.")
+                tqdm.write("⛔ Lapozó gomb nem található.")
                 break
 
     driver.quit()
 
-    # 💾 Mentés
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(all_data, f, ensure_ascii=False, indent=2)
 
-    print(f"\n✅ Összesen {len(all_data)} termék mentve → {OUTPUT_FILE}")
+    print(f"\n✅ Teszt: {len(all_data)} termék mentve → {OUTPUT_FILE}")
 
 if __name__ == "__main__":
-    run_scraper()
+    run_scraper_test()
