@@ -2,7 +2,7 @@ import os
 import json
 from datetime import datetime
 from bs4 import BeautifulSoup
-from tqdm import tqdm  # csak itt használunk kiírást
+from tqdm import tqdm
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -11,7 +11,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # ---- Fájlok és útvonalak ----
-TTODAY = datetime.now().strftime("%Y_%m_%d")
+TODAY = datetime.now().strftime("%Y_%m_%d")
 BASE_DIR = os.path.dirname(__file__)
 INPUT_FILE = os.path.join(BASE_DIR, "..", "output", f"{TODAY}_jofogas.json")
 OUTPUT_FILE = os.path.join(BASE_DIR, "..", "output", f"{TODAY}_jofogas_enriched.json")
@@ -33,7 +33,7 @@ def setup_driver():
     options.add_argument(f"--user-data-dir={PROFILE_DIR}")
     options.add_argument("--profile-directory=Default")
 
-    # Gyorsítás
+    # Gyorsítás: képek, stíluslapok és betűtípusok tiltása
     prefs = {
         "profile.managed_default_content_settings.images": 2,
         "profile.managed_default_content_settings.stylesheets": 2,
@@ -53,6 +53,7 @@ def main():
 
     driver = setup_driver()
     enriched = []
+    cookie_clicked = False  # cookie kezelő csak egyszer
 
     for product in tqdm(products, desc="📦 Termékek feldolgozása", unit="termék"):
         url = product.get("product_link")
@@ -61,6 +62,17 @@ def main():
 
         try:
             driver.get(url)
+
+            if not cookie_clicked:
+                try:
+                    consent_btn = WebDriverWait(driver, 3).until(
+                        EC.element_to_be_clickable((By.CSS_SELECTOR, ".didomi-continue-without-agreeing"))
+                    )
+                    consent_btn.click()
+                    cookie_clicked = True
+                except:
+                    pass  # már el lett fogadva vagy nem jelent meg
+
             WebDriverWait(driver, 8).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, SELECTORS["description"]))
             )
@@ -72,8 +84,9 @@ def main():
             product["description"] = extract_field(soup, SELECTORS["description"])
 
             enriched.append(product)
+
         except Exception as e:
-            tqdm.write(f"Hiba: {url} → {e}")  # ← nem bontja meg a progress bar-t
+            tqdm.write(f"⚠️ Hiba: {url} → {e}")
 
     driver.quit()
 
