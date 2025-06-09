@@ -8,6 +8,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+# Alapbeállítások
 BASE_URL = "https://www.jofogas.hu/magyarorszag/laptop-es-kiegeszitok"
 TODAY = datetime.now().strftime("%Y_%m_%d")
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "..", "output")
@@ -28,10 +29,11 @@ def extract_products_from_page(driver):
 
     for box in product_boxes:
         try:
-            link = box.find_elements(By.CSS_SELECTOR, 'section.imageBox a').get_attribute("href")
-            image = box.find_elements(By.CSS_SELECTOR, 'section.imageBox meta[itemprop="image"]').get_attribute("content")
-            name = box.find_elements(By.CSS_SELECTOR, 'section.subjectWrapper meta[itemprop="name"]').get_attribute("content")
-            price = box.find_elements(By.CSS_SELECTOR, 'section.price span.price-value').text.strip()
+            link_el = box.find_element(By.CSS_SELECTOR, 'h3.item-title a')
+            link = link_el.get_attribute("href")
+            name = link_el.text.strip()
+            image = box.find_element(By.CSS_SELECTOR, 'picture img').get_attribute("src")
+            price = box.find_element(By.CSS_SELECTOR, 'section.price span.price-value').text.strip()
 
             product_data.append({
                 "product_link": link,
@@ -43,7 +45,7 @@ def extract_products_from_page(driver):
                 "date": TODAY,
             })
         except Exception as e:
-            print(f"⚠️ Hiba terméknél: {e}")
+            print(f"⚠️ Hiba termék feldolgozásakor: {e}")
             continue
 
     return product_data
@@ -63,7 +65,7 @@ def run_scraper():
 
     all_data = []
 
-    for i in range(2):  # Csak két oldal
+    for i in range(2):  # Csak két oldal tesztként
         print(f"🔄 Oldal {i + 1}")
         time.sleep(2)
         products = extract_products_from_page(driver)
