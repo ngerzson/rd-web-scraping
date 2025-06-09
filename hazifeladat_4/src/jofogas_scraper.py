@@ -8,7 +8,6 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# ---- Beállítások ----
 BASE_URL = "https://www.jofogas.hu/magyarorszag/laptop-es-kiegeszitok"
 TODAY = datetime.now().strftime("%Y_%m_%d")
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "..", "output")
@@ -29,10 +28,10 @@ def extract_products_from_page(driver):
 
     for box in product_boxes:
         try:
-            link = box.find_element(By.CSS_SELECTOR, 'section.imageBox a').get_attribute("href")
-            image = box.find_element(By.CSS_SELECTOR, 'section.imageBox meta[itemprop="image"]').get_attribute("content")
-            name = box.find_element(By.CSS_SELECTOR, 'section.subjectWrapper meta[itemprop="name"]').get_attribute("content")
-            price = box.find_element(By.CSS_SELECTOR, 'section.price span.price-value').text.strip()
+            link = box.find_elements(By.CSS_SELECTOR, 'section.imageBox a').get_attribute("href")
+            image = box.find_elements(By.CSS_SELECTOR, 'section.imageBox meta[itemprop="image"]').get_attribute("content")
+            name = box.find_elements(By.CSS_SELECTOR, 'section.subjectWrapper meta[itemprop="name"]').get_attribute("content")
+            price = box.find_elements(By.CSS_SELECTOR, 'section.price span.price-value').text.strip()
 
             product_data.append({
                 "product_link": link,
