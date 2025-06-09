@@ -1,72 +1,86 @@
 import os
 import json
-import requests
-from bs4 import BeautifulSoup
 from datetime import datetime
-from tqdm import tqdm
+from bs4 import BeautifulSoup
+from tqdm import tqdm  # csak itt használunk kiírást
 
-# Elérési utak
-TODAY = datetime.now().strftime("%Y_%m_%d")
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+# ---- Fájlok és útvonalak ----
+TODAY = "2025_06_09"
 BASE_DIR = os.path.dirname(__file__)
-INPUT_FILE = os.path.join(BASE_DIR, "..", "output", f"{TODAY}_jofogas_test.json")
+INPUT_FILE = os.path.join(BASE_DIR, "..", "output", f"{TODAY}_jofogas.json")
 OUTPUT_FILE = os.path.join(BASE_DIR, "..", "output", f"{TODAY}_jofogas_enriched.json")
+PROFILE_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "chrome_profile"))
 
-# Szelektorok
+# ---- Szelektorok (validált) ----
 SELECTORS = {
-    "brand": 'div[data-testid="param_laptop_acc_brand"] span.MuiTypography-subtitle1',
-    "cpu": 'div[data-testid="param_computer_cpu_type"] span.MuiTypography-subtitle1',
-    "storage": 'div[data-testid="param_capacity"] span.MuiTypography-subtitle1'
+    "brand": 'div[data-testid="param_laptop_acc_brand"] h6 span',
+    "cpu": 'div[data-testid="param_computer_cpu_type"] h6 span',
+    "storage": 'div[data-testid="param_capacity"] h6 span',
+    "description": 'p.MuiTypography-root.MuiTypography-body1.css-18q1add'
 }
+
+def setup_driver():
+    options = Options()
+    options.add_argument("--window-size=1920,1080")
+    options.add_argument("--disable-gpu")
+    options.add_argument("--headless=new")
+    options.add_argument(f"--user-data-dir={PROFILE_DIR}")
+    options.add_argument("--profile-directory=Default")
+
+    # Gyorsítás
+    prefs = {
+        "profile.managed_default_content_settings.images": 2,
+        "profile.managed_default_content_settings.stylesheets": 2,
+        "profile.managed_default_content_settings.fonts": 2,
+    }
+    options.add_experimental_option("prefs", prefs)
+
+    return webdriver.Chrome(options=options)
 
 def extract_field(soup, selector):
     el = soup.select_one(selector)
-    return el.text.strip() if el else None
-
-def load_data(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-def save_data(data, path):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-
-def parse_product_details(product):
-    url = product.get("product_link")
-    if not url:
-        return None
-
-    try:
-        response = requests.get(url, timeout=10)
-        if response.status_code != 200:
-            print(f"❌ Sikertelen lekérés: {url} [{response.status_code}]")
-            return None
-
-        soup = BeautifulSoup(response.text, "html.parser")
-
-        product["brand"] = extract_field(soup, SELECTORS["brand"])
-        product["cpu"] = extract_field(soup, SELECTORS["cpu"])
-        product["storage"] = extract_field(soup, SELECTORS["storage"])
-
-        return product
-
-    except Exception as e:
-        print(f"⚠️ Hiba a termék feldolgozásakor: {url} → {e}")
-        return None
+    return el.get_text(strip=True) if el else None
 
 def main():
-    print(f"📥 Beolvasás: {INPUT_FILE}")
-    products = load_data(INPUT_FILE)
-    enriched_data = {}
+    with open(INPUT_FILE, "r", encoding="utf-8") as f:
+        products = json.load(f)
 
-    print(f"🔍 Termékoldalak feldolgozása ({len(products)} db)...")
-    for product in tqdm(products):
-        updated = parse_product_details(product)
-        if updated:
-            enriched_data[updated["product_link"]] = updated
+    driver = setup_driver()
+    enriched = []
 
-    print(f"\n💾 Mentés: {OUTPUT_FILE}")
-    save_data(enriched_data, OUTPUT_FILE)
-    print(f"✅ Kész, {len(enriched_data)} termék mentve.")
+    for product in tqdm(products, desc="📦 Termékek feldolgozása", unit="termék"):
+        url = product.get("product_link")
+        if not url:
+            continue
+
+        try:
+            driver.get(url)
+            WebDriverWait(driver, 8).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, SELECTORS["description"]))
+            )
+            soup = BeautifulSoup(driver.page_source, "html.parser")
+
+            product["brand"] = extract_field(soup, SELECTORS["brand"])
+            product["cpu"] = extract_field(soup, SELECTORS["cpu"])
+            product["storage"] = extract_field(soup, SELECTORS["storage"])
+            product["description"] = extract_field(soup, SELECTORS["description"])
+
+            enriched.append(product)
+        except Exception as e:
+            tqdm.write(f"Hiba: {url} → {e}")  # ← nem bontja meg a progress bar-t
+
+    driver.quit()
+
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(enriched, f, ensure_ascii=False, indent=2)
+
+    print(f"\n✅ Kész: {len(enriched)} termék bővítve → {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     main()
