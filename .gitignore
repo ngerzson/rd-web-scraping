@@ -29,3 +29,6 @@ Thumbs.db
 
 #Chromedriver kivetele
 chromedriver.exe
+
+#Chromeprofile
+chrome_profile/
