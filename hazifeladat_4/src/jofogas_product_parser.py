@@ -11,7 +11,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # ---- Fájlok és útvonalak ----
-TODAY = "2025_06_09"
+TTODAY = datetime.now().strftime("%Y_%m_%d")
 BASE_DIR = os.path.dirname(__file__)
 INPUT_FILE = os.path.join(BASE_DIR, "..", "output", f"{TODAY}_jofogas.json")
 OUTPUT_FILE = os.path.join(BASE_DIR, "..", "output", f"{TODAY}_jofogas_enriched.json")
