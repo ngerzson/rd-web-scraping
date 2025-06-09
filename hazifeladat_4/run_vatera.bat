@@ -1,15 +1,18 @@
 @echo off
-echo [%date% %time%] Vatera scraper futtatása...
+setlocal
+cd /d %~dp0
 
-:: Virtuális környezet aktiválása
-call D:\WebScraping\rd-web-scraping\venv\Scripts\activate.bat
+echo [%date% %time%] Vatera scraper és export indul...
 
-:: Scraper futtatása
-python D:\WebScraping\rd-web-scraping\hazifeladat_4\src\vatera_scraper.py
+:: Aktiválás
+call venv\Scripts\activate.bat
 
-:: Excel exportálás
-python D:\WebScraping\rd-web-scraping\hazifeladat_4\src\vatera_export.py
+:: Scraper + Export
+python src\vatera_scraper.py
+python src\vatera_export.py
 
-:: Készen vagyunk
-echo [%date% %time%] ✅ Vatera scraping és export kész.
+:: Jófogás export is, ha kéred a végén
+python src\jofogas_export.py
+
+echo [%date% %time%] ✅ Vatera + Jófogás export kész.
 pause
