@@ -7,7 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
-# ---- Alap beállítások ----
+# ---- Beállítások ----
 TODAY = datetime.now().strftime("%Y_%m_%d")
 BASE_DIR = os.path.dirname(__file__)
 INPUT_FILE = os.path.join(BASE_DIR, "..", "output", f"{TODAY}_vatera.json")
@@ -17,24 +17,22 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 }
 
-# ---- Termék specifikációk kinyerése ----
+# ---- Specifikációk kinyerése ----
 def extract_specs(soup):
-    specs = {}
+    specs = {"brand": "", "cpu": "", "storage": ""}
 
-    rows = soup.select("div.tw-grid.tw-gap-2.tw-grid-cols-[auto_1fr]")
-    for row in rows:
-        cols = row.find_all("div", recursive=False)
-        if len(cols) != 2:
-            continue
-        label = cols[0].get_text(strip=True)
-        value = cols[1].get_text(strip=True)
+    # minden címke mező (label)
+    for lbl in soup.select("div.tw-text-warm-grey-600"):
+        key = lbl.get_text(strip=True).rstrip(":")
+        val_div = lbl.find_next_sibling("div")
+        val = val_div.get_text(strip=True) if val_div else ""
 
-        if label == "Memória gyártó:":
-            specs["brand"] = value
-        elif label == "Processzor típusa:":
-            specs["cpu"] = value
-        elif label == "Tárolókapacitás:":
-            specs["storage"] = value
+        if key == "Memória gyártó":
+            specs["brand"] = val
+        elif key == "Processzor típusa":
+            specs["cpu"] = val
+        elif key == "Tárolókapacitás":
+            specs["storage"] = val
 
     return specs
 
@@ -46,46 +44,44 @@ def extract_description(soup):
         return re.sub(r"\n+", "\n", text)
     return ""
 
-# ---- Parser fő futtatása ----
+# ---- Parser futtatása ----
 def run_parser():
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
         products = json.load(f)
 
     enriched = []
 
-    for product in tqdm(products, desc="🔍 Vatera termékoldalak feldolgozása"):
+    for product in tqdm(products, desc="🔎 Vatera termékek feldolgozása", unit="db"):
         url = product.get("product_link")
         if not url:
             continue
 
         try:
-            response = requests.get(url, headers=HEADERS, timeout=10)
-            response.raise_for_status()
-            soup = BeautifulSoup(response.text, "html.parser")
+            resp = requests.get(url, headers=HEADERS, timeout=10)
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "html.parser")
 
             specs = extract_specs(soup)
             description = extract_description(soup)
 
-            # Mezők hozzáadása a termékhez
-            product["brand"] = specs.get("brand")
-            product["cpu"] = specs.get("cpu")
-            product["storage"] = specs.get("storage")
-            product["description"] = description
+            product["brand"]      = specs.get("brand", "")
+            product["cpu"]        = specs.get("cpu", "")
+            product["storage"]    = specs.get("storage", "")
+            product["description"]= description or ""
 
             enriched.append(product)
 
         except Exception as e:
-            tqdm.write(f"⚠️ Hiba: {url} → {e}")
+            tqdm.write(f"⚠️ Hiba a lekérésnél: {url} → {e}")
             continue
 
-        # sleep(1.5)  # kímélő mód
+        sleep(1.0)
 
-    # Mentés JSON fájlba
+    # Mentés JSON-be
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(enriched, f, ensure_ascii=False, indent=2)
 
-    print(f"\n✅ Bővített adatok elmentve ide: {OUTPUT_FILE}")
+    print(f"\n✅ Feldolgozva: {len(enriched)} termék. Eredmény: {OUTPUT_FILE}")
 
-# ---- Főprogram hívása ----
 if __name__ == "__main__":
     run_parser()
