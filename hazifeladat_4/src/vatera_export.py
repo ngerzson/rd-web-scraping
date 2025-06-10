@@ -9,7 +9,7 @@ from openpyxl.worksheet.table import Table, TableStyleInfo
 # ---- Dátum és fájl elérési útvonalak ----
 TODAY = datetime.now().strftime("%Y_%m_%d")
 BASE_DIR = os.path.dirname(__file__)
-INPUT_FILE = os.path.join(BASE_DIR, "..", "output", f"{TODAY}_vatera.json")
+INPUT_FILE = os.path.join(BASE_DIR, "..", "output", f"{TODAY}_vatera_enriched.json")
 OUTPUT_FILE = os.path.join(BASE_DIR, "..", "output", f"{TODAY}_vatera_export.xlsx")
 
 # ---- JSON beolvasás ----
