@@ -1,6 +1,7 @@
 import os
 import time
 import json
+import re
 from datetime import datetime
 from tqdm import tqdm
 
@@ -47,7 +48,8 @@ def extract_products_from_page(driver):
             name = link_el.text.strip()
 
             price_el = box.find_element(By.CSS_SELECTOR, 'div.priceBox span.price-value')
-            price = price_el.text.strip()
+            raw_price = price_el.text.strip()
+            price = int(re.sub(r'\D+', '', raw_price))
 
             image_el = box.find_element(By.CSS_SELECTOR, 'section.imageBox img')
             image = image_el.get_attribute("src")

@@ -1,5 +1,6 @@
 import os
 import json
+import re
 from datetime import datetime
 from bs4 import BeautifulSoup
 from tqdm import tqdm
@@ -56,12 +57,17 @@ def extract_products_from_page(driver):
         link_tag = box.select_one(SELECTORS["link"])
         name_tag = box.select_one(SELECTORS["name"])
         price_tag = box.select_one(SELECTORS["price"])
+        if price_tag:
+            raw_price = price_tag.get_text(strip=True)
+            price = int(re.sub(r'\D+', '', raw_price))
+        else:
+            price = None
 
         product = {
             "product_link": link_tag["href"] if link_tag else None,
             "image": image,
             "name": name_tag.get_text(strip=True) if name_tag else None,
-            "price": price_tag.get_text(strip=True) if price_tag else None,
+            "price": price,
             "category_link": driver.current_url,
             "source": "jofogas",  # megmarad így, ahogy kérted
             "date": TODAY
