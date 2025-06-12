@@ -34,7 +34,7 @@ def main():
 
     enriched = []
 
-    for product in tqdm(products, desc="🔍 Requests feldolgozás", unit="termék"):
+    for product in tqdm(products, desc="🔍 Jofogas termékek feldolgozása", unit="termék"):
         url = product.get("product_link")
         if not url:
             continue

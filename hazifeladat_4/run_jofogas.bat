@@ -2,7 +2,7 @@
 setlocal
 cd /d %~dp0
 
-echo [%date% %time%] Jófogás Scraper és Export Indul...
+echo [%date% %time%] Jofogas Scraper es Export Indul...
 
 :: Aktiválás
 call venv\Scripts\activate.bat
@@ -12,5 +12,5 @@ python src\jofogas_scraper.py
 python src\jofogas_product_parser.py
 python src\jofogas_export.py
 
-echo [%date% %time%] ✅ Jófogás Scraper és Export Kész.
+echo [%date% %time%] ✅ Jofogas Scraper es Export Kesz.
 pause
