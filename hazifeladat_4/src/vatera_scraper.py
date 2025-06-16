@@ -69,7 +69,7 @@ def extract_products_from_page(driver):
             "name": name_tag.get_text(strip=True) if name_tag else None,
             "price": price,
             "category_link": driver.current_url,
-            "source": "jofogas",  # megmarad így, ahogy kérted
+            "source": "vatera",
             "date": TODAY
         }
         items.append(product)
